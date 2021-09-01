@@ -15,8 +15,8 @@ Apart from that Android Vision library for text detection, Android material desi
 ### AReado Android App
 
 <p align="center">
-  <img src="https://github.com/chamikaCN/LIVRA-Interactive-Book-Reader/blob/master/ReadMe%20content/Screenshot_20200625-113858.png" height="500px" alt="Sublime's custom image"/>
-  <img src="https://github.com/chamikaCN/LIVRA-Interactive-Book-Reader/blob/master/ReadMe%20content/Screenshot_20200625-114427.png" height="500px" alt="Sublime's custom image"/>
+  <img src="https://github.com/Arpit-Jha/Interactive-Book-Reader/blob/6521d6a03963224f5ea36411cd8030d7a1555930/ReadMe%20content/light.jpg" height="500px" alt="Sublime's custom image"/>
+  <img src="https://github.com/Arpit-Jha/Interactive-Book-Reader/blob/6521d6a03963224f5ea36411cd8030d7a1555930/ReadMe%20content/dark.jpg" height="500px" alt="Sublime's custom image"/>
 </br><i>dark and light themes of main menu</i>
 </p>
 When you download and open our ‘AReado’ app you will be guided to the main menu with 6 buttons on screen. Without any books and content added you can’t enjoy the great experience provided by it.
@@ -35,7 +35,7 @@ If you long click a book the book will be selected and highlighted. Now you can 
 Click a book to enter the AR view of that book.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77734479/131717045-d8cd2dc3-29f2-403e-a259-9ab77d49b5ad.png" height="500px" alt="Sublime's custom image"/>
+  <img src="https://github.com/Arpit-Jha/Interactive-Book-Reader/blob/6521d6a03963224f5ea36411cd8030d7a1555930/ReadMe%20content/library.jpg" height="500px" alt="Sublime's custom image"/>
   <img src="https://user-images.githubusercontent.com/77734479/131717353-8e5cad79-604b-4bfb-b619-ba84f16fd6ea.png" height="500px" alt="Sublime's custom image"/>
 </p>
 
@@ -83,7 +83,7 @@ The Start Game button starts the activity. In this activity 6 random letters wil
 #### Settings
 
 <p align="center">
-  <img src="https://github.com/chamikaCN/LIVRA-Interactive-Book-Reader/blob/master/ReadMe%20content/Screenshot_20200625-114403.png" height="500px" alt="Sublime's custom image"/>
+  <img src="https://github.com/Arpit-Jha/Interactive-Book-Reader/blob/6521d6a03963224f5ea36411cd8030d7a1555930/ReadMe%20content/Settings.jpg" height="500px" alt="Sublime's custom image"/>
 </p>
 
 On the settings popup you can adjust some criterias according to your preference.
