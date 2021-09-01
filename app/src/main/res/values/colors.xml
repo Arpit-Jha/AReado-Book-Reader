@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#747474</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorBlue">#3F51B5</color>
+    <color name="colorDarkBackground">#222222</color>
+    <color name="colorLightText">#eeeeee</color>
+    <color name="colorDarkText">#242424</color>
+    <color name="colorLightTitle">#80CBC4</color>
+    <color name="colorLightOne">#9575CD</color>
+    <color name="colorLightTwo">#FFD54F</color>
+    <color name="colorLightThree">#81C784</color>
+    <color name="colorDisabled">#636363</color>
+    <color name="colorLightFour">#4FC3F7</color>
+    <color name="colorLightFive">#E57373</color>
+    <color name="colorDarkCard">#384F50</color>
+
+    Common
+    <color name="commonPrimary">#607D8B</color>
+    <color name="commonAccent">#FFCA28</color>
+    <color name="commonPrimaryText">#FFFFFF</color>
+    <color name="commonAccentText">#000000</color>
+    <color name="commonButton1">#5CAF04</color>
+    <color name="commonButton2">#D81A3E</color>
+    <color name="commonButton3">#607D8B</color>
+
+    Theme Light
+    <color name="lightPrimary">#CFD8DC</color>
+    <color name="lightPrimaryVarient">#B0BEC5</color>
+    <color name="lightDefaultText">#000000</color>
+    <color name="lightTitleText">#37474F</color>
+    <color name="lightHintText">#607D8B</color>
+    <color name="lightFancyOne">#672178</color>
+    <color name="lightFancyTwo">#D4AA00</color>
+    <color name="lightFancyThree">#008033</color>
+    <color name="lightFancyFour">#1E88E5</color>
+    <color name="lightFancyFive">#E53935</color>
+
+    Theme Dark
+    <color name="darkPrimary">#263238</color>
+    <color name="darkPrimaryVarient">#37474F</color>
+    <color name="darkDefaultText">#FFFFFF</color>
+    <color name="darkTitleText">#BEB0C5</color>
+    <color name="darkHintText">#607D8B</color>
+    <color name="darkFancyOne">#BEB0C5</color>
+    <color name="darkFancyTwo">#FFE082</color>
+    <color name="darkFancyThree">#AED581</color>
+    <color name="darkFancyFour">#90CAF9</color>
+    <color name="darkFancyFive">#E57373</color>
+
+
+</resources>

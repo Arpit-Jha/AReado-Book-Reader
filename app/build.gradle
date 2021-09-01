@@ -1,0 +1,252 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+apply plugin: 'com.google.gms.google-services'
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.example.chamikanandasiri.interactivebookreader"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+//Nilaan
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'   //1.15.0
+    implementation 'com.google.ar.sceneform:assets:1.17.1'
+    implementation 'com.google.ar.sceneform:animation:1.17.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.google.ar:core:1.26.0'
+
+    def paging_version = "3.0.1"
+    implementation "androidx.paging:paging-runtime:$paging_version"
+
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:8.0.0'
+
+    // FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
+
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
+
+    // FirebaseUI for Cloud Storage
+    implementation 'com.firebaseui:firebase-ui-storage:8.0.0'
+
+}
+
+
+//sceneform.asset('sampleData/model.obj',
+//        'default',
+//        'sampleData/model.sfa',
+//        'src/main/assets/model')
+//
+//sceneform.asset('sampleData/table.obj',
+//        'default',
+//        'sampleData/table.sfa',
+//        'src/main/assets/table')
+
+
+//sceneform.asset('sampleData/embedded_resources.fbx',
+//        'default',
+//        'sampleData/embedded_resources.sfa',
+//        'src/main/assets/bird')
+
+
+sceneform.asset('sampleData/A.fbx',
+        'default',
+        'sampleData/A.sfa',
+        'src/main/assets/A')
+
+sceneform.asset('sampleData/B.fbx',
+        'default',
+        'sampleData/B.sfa',
+        'src/main/assets/B')
+
+sceneform.asset('sampleData/C.fbx',
+        'default',
+        'sampleData/C.sfa',
+        'src/main/assets/C')
+
+sceneform.asset('sampleData/D.fbx',
+        'default',
+        'sampleData/D.sfa',
+        'src/main/assets/D')
+
+sceneform.asset('sampleData/comma.fbx',
+        'default',
+        'sampleData/comma.sfa',
+        'src/main/assets/comma')
+
+sceneform.asset('sampleData/dot.fbx',
+        'default',
+        'sampleData/dot.sfa',
+        'src/main/assets/dot')
+
+
+sceneform.asset('sampleData/E.fbx',
+        'default',
+        'sampleData/E.sfa',
+        'src/main/assets/E')
+
+sceneform.asset('sampleData/exclamation.fbx',
+        'default',
+        'sampleData/exclamation.sfa',
+        'src/main/assets/exclamation')
+
+sceneform.asset('sampleData/F.fbx',
+        'default',
+        'sampleData/F.sfa',
+        'src/main/assets/F')
+
+sceneform.asset('sampleData/G.fbx',
+        'default',
+        'sampleData/G.sfa',
+        'src/main/assets/G')
+
+sceneform.asset('sampleData/H.fbx',
+        'default',
+        'sampleData/H.sfa',
+        'src/main/assets/H')
+
+sceneform.asset('sampleData/hyphen.fbx',
+        'default',
+        'sampleData/hyphen.sfa',
+        'src/main/assets/hyphen')
+
+sceneform.asset('sampleData/I.fbx',
+        'default',
+        'sampleData/I.sfa',
+        'src/main/assets/I')
+
+sceneform.asset('sampleData/J.fbx',
+        'default',
+        'sampleData/J.sfa',
+        'src/main/assets/J')
+
+sceneform.asset('sampleData/K.fbx',
+        'default',
+        'sampleData/K.sfa',
+        'src/main/assets/K')
+
+sceneform.asset('sampleData/L.fbx',
+        'default',
+        'sampleData/L.sfa',
+        'src/main/assets/L')
+
+sceneform.asset('sampleData/M.fbx',
+        'default',
+        'sampleData/M.sfa',
+        'src/main/assets/M')
+
+sceneform.asset('sampleData/N.fbx',
+        'default',
+        'sampleData/N.sfa',
+        'src/main/assets/N')
+
+sceneform.asset('sampleData/O.fbx',
+        'default',
+        'sampleData/O.sfa',
+        'src/main/assets/O')
+
+sceneform.asset('sampleData/P.fbx',
+        'default',
+        'sampleData/P.sfa',
+        'src/main/assets/P')
+
+sceneform.asset('sampleData/question.fbx',
+        'default',
+        'sampleData/question.sfa',
+        'src/main/assets/question')
+
+sceneform.asset('sampleData/Q.fbx',
+        'default',
+        'sampleData/Q.sfa',
+        'src/main/assets/Q')
+
+sceneform.asset('sampleData/R.fbx',
+        'default',
+        'sampleData/R.sfa',
+        'src/main/assets/R')
+
+sceneform.asset('sampleData/S.fbx',
+        'default',
+        'sampleData/S.sfa',
+        'src/main/assets/S')
+
+sceneform.asset('sampleData/T.fbx',
+        'default',
+        'sampleData/T.sfa',
+        'src/main/assets/T')
+
+sceneform.asset('sampleData/U.fbx',
+        'default',
+        'sampleData/U.sfa',
+        'src/main/assets/U')
+
+sceneform.asset('sampleData/V.fbx',
+        'default',
+        'sampleData/V.sfa',
+        'src/main/assets/V')
+
+sceneform.asset('sampleData/W.fbx',
+        'default',
+        'sampleData/W.sfa',
+        'src/main/assets/W')
+
+sceneform.asset('sampleData/X.fbx',
+        'default',
+        'sampleData/X.sfa',
+        'src/main/assets/X')
+
+sceneform.asset('sampleData/Y.fbx',
+        'default',
+        'sampleData/Y.sfa',
+        'src/main/assets/Y')
+
+sceneform.asset('sampleData/Z.fbx',
+        'default',
+        'sampleData/Z.sfa',
+        'src/main/assets/Z')
+
+
+//sceneform.asset('sampleData/AnimatedDroid.fbx',
+//        'default',
+//        'sampleData/AnimatedDroid.sfa',
+//        'src/main/assets/AnimatedDroid')

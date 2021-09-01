@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CommentCardTitle"
+            android:textColor="?attr/titleTextColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="dshegaerg"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorAccent"
+            android:id="@+id/CommentCardBook"
+            android:text="zfbagaf"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorAccent"
+            android:id="@+id/CommentCardPhrase"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/editTextColor"
+            android:id="@+id/CommentCardComment"
+            android:scrollX="0dp"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

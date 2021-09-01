@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="?attr/panelBackground"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/CommentBackButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_four"
+            android:contentDescription="@string/BackButtonContentDescription"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_back" />
+
+        <ImageButton
+            android:id="@+id/CommentCloseButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button_five"
+            android:contentDescription="@string/CloseButtonContentDescription"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_close" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CommentDisplayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:scrollY="40dp"
+        android:textColor="?attr/editTextColor"
+        android:textIsSelectable="true" />
+
+    <EditText
+        android:id="@+id/CommentTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Add Your Title...."
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="?attr/editTextColor"
+        android:textColorHint="?attr/hintTextColor"
+        android:textIsSelectable="true" />
+
+    <EditText
+        android:id="@+id/CommentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="top|start"
+        android:hint="Add Your Comment...."
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:scrollY="40dp"
+        android:textColor="?attr/editTextColor"
+        android:textColorHint="?attr/hintTextColor"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollX="0dp">
+
+        <ImageButton
+            android:id="@+id/CommentOKButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button_three"
+            android:contentDescription="@string/SpeakButtonContentDescription"
+            android:scaleType="fitXY"
+            android:tooltipText="Save Comment"
+            app:srcCompat="@drawable/ic_save" />
+
+    </LinearLayout>
+
+</LinearLayout>

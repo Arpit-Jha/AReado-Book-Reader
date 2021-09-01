@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chamikanandasiri.interactivebookreader">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_livra_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_livra_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/LightTheme">
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LibraryActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorageActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity android:name=".viewpdf"></activity>
+        <activity
+            android:name=".TextDetectionActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>
