@@ -1,11 +1,14 @@
 # LIVRA-Interactive-Book-Reader
 Livra is an interactive book reader companion system developed to increase the interest of reading and learning for specially children. It mainly provides the usage of Augmented reality, Text detection and recognition, Text to speech and many other functionalities for the users. They can capture text and search for meanings, add comments and save them, download and experience the models provided for books and various other things using Livra. It also helps book readers to understand the content of the book properly with visual and graphical involovement. 
- The system contains an android application for users and a web platform through which book publishers can add their content to be used by book readers. Livra mobile app is developed using Android studio and java, with some other libraries and tools for implementing all the functionalities. This Repositary contains the source code for the Android application.
+The app enables you to upload your PDF files to the app using <b> Google Firebase Storage </b> and allows you to retrieve them using <b> Firebase Realtime Database </b>.
+It also involves an extensive Text Detection system with the help of <b> Android Vision </b>. The most attractive feature of the app is its AR Game made using Sceneform of <b> AR Core </b>.
 
+### APK Download Link - https://github.com/Arpit-Jha/Interactive-Book-Reader/raw/85d42069afcb9d34150d0ae5f4eb7d707bfc9aa3/APK%20-%20Interactive%20Book%20Reader.zip
+ 
 ### Used Technolgies
 Livra app is based on Android Studio with many supporting libraries and tools. Android Studio version 3.5 was used as the integrated development environment.
 Sceneform version 1.15.0 was used to Implement the augmented reality related functionalities of the application. It is an SDK developed by Google based on their ARcore platform, which enables to build augmented reality applications without the explicit usage of OpenGL libraries.
-Apart from that Android Vision library for text detection and barcode recognition, Okhttp 3 for connection between application and web platform, Android material design for UI implementation are the main support packages used in ‘Livra’. SQLite integration to Android is used to implement the local database which stores the details of downloaded books and content, saved words and comments.
+Apart from that Android Vision library for text detection, Android material design for UI implementation are the main support packages used in ‘Livra’. SQLite integration to Android is used to implement the local database which stores the details of downloaded books and content, saved words and comments.
 
 ## User Manual
 
@@ -20,29 +23,9 @@ When you download and open our ‘Livra’ app you will be guided to the main me
 
 #### Adding Books
 
-You can add books and content to your library in two separate methods. Those are  by scanning the book's barcode or by searching the book's title.
-
-##### using barcode:
-
-To use this method you should have the book physically or an image of the book's barcode.
-Click the ‘Add Book’ button to start adding books.
-Align Book’s barcode within the camera box until a beep sound comes through.It is better to have more light on the barcode for quick recognition.
-App will show you the ISBN of the book when the barcode is detected.
-Select Search For Details and It will take a small time to search in our database.
-You can see the details of the book if the book is available on our system.
-If there is any AR content available the number of models will be displayed below.
-Click ‘View AR content’. The button will be diabled if there is no content in the database.
-Select the content you want to download and select Download Content.
-Now the content will be downloaded and the book will be added to your library.
-
-##### search book with title:
-
-Select Add Book as in the previous option.
-Without scanning the barcode you can click the ‘Search Database’ button.
-Type the title or part of title of the book you want to search for.
-Click the search button and wait for the results to appear.
-Select a book from results and proceed to the next step. 
-Refer from step 7 in the previous option.
+You can add books and content to your library by selecting your file from your device or Google Drive.
+Click on the "Plus" icon and then select the file.
+Provide a suitable name to the file and then click on the Upload button.
 
 #### Library
 
@@ -50,6 +33,11 @@ You can access all downloaded books and content through the library. To go to th
 You can search a book by its title from the search bar.
 If you long click a book the book will be selected and highlighted. Now you can click the ‘Remove’ button in red to delete the whole book or models of the book as required.
 Click a book to enter the AR view of that book.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77734479/131717045-d8cd2dc3-29f2-403e-a259-9ab77d49b5ad.png" height="500px" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/77734479/131717353-8e5cad79-604b-4bfb-b619-ba84f16fd6ea.png" height="500px" alt="Sublime's custom image"/>
+</p>
 
 #### AR View
 
@@ -104,26 +92,4 @@ Text size - you can set text size of detections to Small, Medium or Large.
 Voice Support - if switched active app will read out all the toast messages you receive. It is mostly intended for small children.
 Audio settings - you can adjust the pitch and the speed of the app's voice including speak mode and voice support.
 
-### Web Platform
-You can add books and content to the web platform which can be used by all the users of the system. At first you have to create an account as a publisher.
-#### Registration
-Go to our Livra web platform by clicking the [this link](https://ar-content-platform.github.io/).
-Click the ‘Publishers’ button on the top right hand corner and select ‘register’.
-Add your details according to the given descriptions and click Register.
-Login to the account with those credentials.
-#### Adding a book
-Click the ‘Add book’ option on the top navigation panel.
-Fill the required details about the book.
-You can add up to 3 images, but the first image will be used as the main cover image of the book. Then add the book to the platform.
-#### Adding content
-Click the ‘Add content’ option right next to the previous one and fill the details.
-You can link your content only with a book added through your account.
-The content must have at least 100 character long description.
-If the content you are uploading has embedded animation, check the ‘Animated?’ checkbox  at the bottom.
-Same as books the first image of the three images will be used as the cover image for that content.
-Currently all the content you upload should be in the format of ‘.sfb’ for our app to recognize and render your content successfully.
-Now you can add the content.
 
-###### List of books already available in the system
-* *Ar content available* - Inferno, Icon(Animated), A Column of Fire,The Separation, Conspiracy of Evil
-* *Without content* - Collections, Artemis Fowl, A Game of Thrones, The Hunger Games
