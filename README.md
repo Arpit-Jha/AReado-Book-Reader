@@ -24,13 +24,18 @@ You can add books and content to your library by selecting your file from your d
 Click on the "Plus" icon and then select the file.
 Provide a suitable name to the file and then click on the Upload button.
 
-
 #### Library
 
 You can access all downloaded books and content through the library. To go to the library just click the ‘My Library’ button on the menu.
 You can search a book by its title from the search bar.
 If you long click a book the book will be selected and highlighted. Now you can click the ‘Remove’ button in red to delete the whole book or models of the book as required.
 Click a book to enter the AR view of that book.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77734479/131717045-d8cd2dc3-29f2-403e-a259-9ab77d49b5ad.png" height="500px" alt="Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/77734479/131717353-8e5cad79-604b-4bfb-b619-ba84f16fd6ea.png" height="500px" alt="Sublime's custom image"/>
+</br><i>dark and light themes of main menu</i>
+</p>
 
 #### AR View
 
