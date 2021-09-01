@@ -3,7 +3,7 @@ AReado is an interactive book reader companion system developed to increase the 
 The app enables you to upload your PDF files to the app using <b> Google Firebase Storage </b> and allows you to retrieve them using <b> Firebase Realtime Database </b>.
 It also involves an extensive Text Detection system with the help of <b> Android Vision </b>. The most attractive feature of the app is its AR Game made using Sceneform of <b> AR Core </b>.
 
-### APK Download Link - 
+### APK Download Link - https://github.com/Arpit-Jha/Interactive-Book-Reader/raw/master/APK%20-%20AReado.zip
 
 ### Used Technolgies
 AReado app is based on Android Studio with many supporting libraries and tools. Android Studio version 3.5 was used as the integrated development environment.
