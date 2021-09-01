@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Livra</string>
+    <string name="app_name">AReado</string>
     <string name="ARButtonContentDescription">AR logo</string>
     <string name="CaptureButtonContentDescription">Capture logo</string>
     <string name="CloseButtonContentDescription">Close</string>
@@ -44,6 +44,6 @@
     <string name="PlusButtonContentDescription">Plus</string>
     <string name="audio_settings">Audio Settings</string>
     <string name="Tutorialok">OK</string>
-    <string name="TutorialContent">Livra is an interactive book reader companion system developed to increase the interest of reading and learning with usage of Augmented Reality.</string>
+    <string name="TutorialContent">AReado is an interactive book reader companion system developed to increase the interest of reading and learning with usage of Augmented Reality.</string>
 
 </resources>

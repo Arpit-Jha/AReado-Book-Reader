@@ -59,24 +59,26 @@
     <ImageView
         android:id="@+id/WelcomeLogoImageView"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="27dp"
         android:elevation="3dp"
-        app:layout_constraintBottom_toBottomOf="@id/guidelineH2"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="@id/guidelineV3"
-        app:layout_constraintStart_toStartOf="@id/guidelineV2"
-        app:layout_constraintTop_toTopOf="@id/guidelineH1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/livra_logo_complete" />
 
     <ImageView
         android:id="@+id/WelcomeNameImageView"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
         android:elevation="3dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@id/guidelineH4"
-        app:layout_constraintEnd_toEndOf="@id/guidelineV4"
-        app:layout_constraintStart_toStartOf="@id/guidelineV1"
-        app:layout_constraintTop_toTopOf="@id/guidelineH3"
-        app:srcCompat="?attr/selectableItemBackground" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeLogoImageView"
+        app:srcCompat="@drawable/logo_app" />
 </androidx.constraintlayout.widget.ConstraintLayout>

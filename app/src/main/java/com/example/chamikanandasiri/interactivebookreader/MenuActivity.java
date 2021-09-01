@@ -56,6 +56,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -454,7 +455,12 @@ public class MenuActivity extends AppCompatActivity {
                             @Override
                             public void onSuccess(Uri uri) {
 
-                                fileinfomodel obj = new fileinfomodel(filetitle.getText().toString(),uri.toString(),0,0,0);
+                                Random random = new Random();
+                                int dis = random.nextInt(50);
+                                int likes = random.nextInt(1000);
+                                int vie = random.nextInt(10000);
+
+                                fileinfomodel obj = new fileinfomodel(filetitle.getText().toString(),uri.toString(),dis,likes,vie);
                                 databaseReference.child(databaseReference.push().getKey()).setValue(obj);
 
                                 pd.dismiss();

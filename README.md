@@ -1,7 +1,7 @@
 # LIVRA-Interactive-Book-Reader
 Livra is an interactive book reader companion system developed to increase the interest of reading and learning for specially children. It mainly provides the usage of Augmented reality, Text detection and recognition, Text to speech and many other functionalities for the users. They can capture text and search for meanings, add comments and save them, download and experience the models provided for books and various other things using Livra. It also helps book readers to understand the content of the book properly with visual and graphical involovement. 
  The system contains an android application for users and a web platform through which book publishers can add their content to be used by book readers. Livra mobile app is developed using Android studio and java, with some other libraries and tools for implementing all the functionalities. This Repositary contains the source code for the Android application.
- 
+
 ### Used Technolgies
 Livra app is based on Android Studio with many supporting libraries and tools. Android Studio version 3.5 was used as the integrated development environment.
 Sceneform version 1.15.0 was used to Implement the augmented reality related functionalities of the application. It is an SDK developed by Google based on their ARcore platform, which enables to build augmented reality applications without the explicit usage of OpenGL libraries.
