@@ -1,11 +1,14 @@
 # LIVRA-Interactive-Book-Reader
 Livra is an interactive book reader companion system developed to increase the interest of reading and learning for specially children. It mainly provides the usage of Augmented reality, Text detection and recognition, Text to speech and many other functionalities for the users. They can capture text and search for meanings, add comments and save them, download and experience the models provided for books and various other things using Livra. It also helps book readers to understand the content of the book properly with visual and graphical involovement. 
- The system contains an android application for users and a web platform through which book publishers can add their content to be used by book readers. Livra mobile app is developed using Android studio and java, with some other libraries and tools for implementing all the functionalities. This Repositary contains the source code for the Android application.
+The app enables you to upload your PDF files to the app using <b> Google Firebase Storage </b> and allows you to retrieve them using <b> Firebase Realtime Database </b>.
+It also involves an extensive Text Detection system with the help of <b> Android Vision </b>. The most attractive feature of the app is its AR Game made using Sceneform of <b> AR Core </b>.
+
+### APK Download Link - https://github.com/Arpit-Jha/Interactive-Book-Reader/raw/85d42069afcb9d34150d0ae5f4eb7d707bfc9aa3/APK%20-%20Interactive%20Book%20Reader.zip
  
 ### Used Technolgies
 Livra app is based on Android Studio with many supporting libraries and tools. Android Studio version 3.5 was used as the integrated development environment.
 Sceneform version 1.15.0 was used to Implement the augmented reality related functionalities of the application. It is an SDK developed by Google based on their ARcore platform, which enables to build augmented reality applications without the explicit usage of OpenGL libraries.
-Apart from that Android Vision library for text detection and barcode recognition, Okhttp 3 for connection between application and web platform, Android material design for UI implementation are the main support packages used in ‘Livra’. SQLite integration to Android is used to implement the local database which stores the details of downloaded books and content, saved words and comments.
+Apart from that Android Vision library for text detection, Android material design for UI implementation are the main support packages used in ‘Livra’. SQLite integration to Android is used to implement the local database which stores the details of downloaded books and content, saved words and comments.
 
 ## User Manual
 
