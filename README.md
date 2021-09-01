@@ -34,7 +34,6 @@ Click a book to enter the AR view of that book.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/77734479/131717045-d8cd2dc3-29f2-403e-a259-9ab77d49b5ad.png" height="500px" alt="Sublime's custom image"/>
   <img src="https://user-images.githubusercontent.com/77734479/131717353-8e5cad79-604b-4bfb-b619-ba84f16fd6ea.png" height="500px" alt="Sublime's custom image"/>
-</br><i>dark and light themes of main menu</i>
 </p>
 
 #### AR View
