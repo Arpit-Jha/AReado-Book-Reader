@@ -20,29 +20,10 @@ When you download and open our ‘Livra’ app you will be guided to the main me
 
 #### Adding Books
 
-You can add books and content to your library in two separate methods. Those are  by scanning the book's barcode or by searching the book's title.
+You can add books and content to your library by selecting your file from your device or Google Drive.
+Click on the "Plus" icon and then select the file.
+Provide a suitable name to the file and then click on the Upload button.
 
-##### using barcode:
-
-To use this method you should have the book physically or an image of the book's barcode.
-Click the ‘Add Book’ button to start adding books.
-Align Book’s barcode within the camera box until a beep sound comes through.It is better to have more light on the barcode for quick recognition.
-App will show you the ISBN of the book when the barcode is detected.
-Select Search For Details and It will take a small time to search in our database.
-You can see the details of the book if the book is available on our system.
-If there is any AR content available the number of models will be displayed below.
-Click ‘View AR content’. The button will be diabled if there is no content in the database.
-Select the content you want to download and select Download Content.
-Now the content will be downloaded and the book will be added to your library.
-
-##### search book with title:
-
-Select Add Book as in the previous option.
-Without scanning the barcode you can click the ‘Search Database’ button.
-Type the title or part of title of the book you want to search for.
-Click the search button and wait for the results to appear.
-Select a book from results and proceed to the next step. 
-Refer from step 7 in the previous option.
 
 #### Library
 
@@ -104,26 +85,4 @@ Text size - you can set text size of detections to Small, Medium or Large.
 Voice Support - if switched active app will read out all the toast messages you receive. It is mostly intended for small children.
 Audio settings - you can adjust the pitch and the speed of the app's voice including speak mode and voice support.
 
-### Web Platform
-You can add books and content to the web platform which can be used by all the users of the system. At first you have to create an account as a publisher.
-#### Registration
-Go to our Livra web platform by clicking the [this link](https://ar-content-platform.github.io/).
-Click the ‘Publishers’ button on the top right hand corner and select ‘register’.
-Add your details according to the given descriptions and click Register.
-Login to the account with those credentials.
-#### Adding a book
-Click the ‘Add book’ option on the top navigation panel.
-Fill the required details about the book.
-You can add up to 3 images, but the first image will be used as the main cover image of the book. Then add the book to the platform.
-#### Adding content
-Click the ‘Add content’ option right next to the previous one and fill the details.
-You can link your content only with a book added through your account.
-The content must have at least 100 character long description.
-If the content you are uploading has embedded animation, check the ‘Animated?’ checkbox  at the bottom.
-Same as books the first image of the three images will be used as the cover image for that content.
-Currently all the content you upload should be in the format of ‘.sfb’ for our app to recognize and render your content successfully.
-Now you can add the content.
 
-###### List of books already available in the system
-* *Ar content available* - Inferno, Icon(Animated), A Column of Fire,The Separation, Conspiracy of Evil
-* *Without content* - Collections, Artemis Fowl, A Game of Thrones, The Hunger Games
