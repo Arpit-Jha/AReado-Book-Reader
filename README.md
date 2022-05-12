@@ -39,20 +39,6 @@ Click a book to enter the AR view of that book.
   <img src="https://user-images.githubusercontent.com/77734479/131717353-8e5cad79-604b-4bfb-b619-ba84f16fd6ea.png" height="500px" alt="Sublime's custom image"/>
 </p>
 
-#### AR View
-
-<p align="center">
-  <img src="https://github.com/chamikaCN/LIVRA-Interactive-Book-Reader/blob/master/ReadMe%20content/Screenshot_20200625-114210.png" height="500px" alt="Sublime's custom image"/>
-</p>
-
-Here you can experience the content downloaded previously. 
-To place a model first you have to find a horizontal plane from your surroundings.
-Hold the phone still until the camera detects a plane and display scattered dots around that plane.
-Now you can select a model from the bottom panel and touch on the detected plane to place it.
-Generated model will have a shrinking animation indicating that it is the current selected model.
-A 3D transformation button will appear in the top corner. By clicking it the transformation panel will drop down. From there you can scale up, down, rotate and deselect the selected model.
-You can place any number of models in the scene. By clicking any model it will be selected. To remove a model from the scene you have to select it and click the red delete button at the top.
-If the model you placed is animated (indicated by the ⏩ icon on the model card) you can select an animation from the animation dropdown.
 #### Text Detection
 
 <p align="center">
