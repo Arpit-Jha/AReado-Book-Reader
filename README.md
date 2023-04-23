@@ -1,5 +1,5 @@
 # AReado-Interactive-Book-Reader
-AReado is an interactive book reader companion system developed to increase the interest of reading and learning for specially abled children. It mainly provides the usage of Augmented reality, Text detection and recognition, Text to speech and many other functionalities for the users. They can capture text and search for meanings, add comments and save them, download and experience the models provided for books and various other things using AReado. It also helps book readers to understand the content of the book properly with visual and graphical involvement. 
+AReado is an interactive book reader companion system developed to increase the interest of reading and learning for specially abled children. It mainly provides the usage of Augmented reality, Text detection and recognition, Text to speech and many other functionalities for the users. They can capture text and search for meanings, add comments and save them, download and experience the models provided for books and various other things using AReado. 
 The app enables you to upload your PDF files to the app using <b> Google Firebase Storage </b> and allows you to retrieve them using <b> Firebase Realtime Database </b>.
 It also involves an extensive Text Detection system with the help of <b> Android Vision </b>. The most attractive feature of the app is its AR Game made using Sceneform of <b> AR Core </b>.
 
@@ -32,7 +32,6 @@ Provide a suitable name to the file and then click on the Upload button.
 You can access all downloaded books and content through the library. To go to the library just click the ‘My Library’ button on the menu.
 You can search a book by its title from the search bar.
 If you long click a book the book will be selected and highlighted. Now you can click the ‘Remove’ button in red to delete the whole book or models of the book as required.
-Click a book to enter the AR view of that book.
 
 <p align="center">
   <img src="https://github.com/Arpit-Jha/Interactive-Book-Reader/blob/6521d6a03963224f5ea36411cd8030d7a1555930/ReadMe%20content/library.jpg" height="500px" alt="Sublime's custom image"/>
